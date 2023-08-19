@@ -1,6 +1,7 @@
-
 package Cine;
+
 public class Pelicula {
+
     String titulo;
     int duracion;
     int edadMinima;
@@ -11,5 +12,10 @@ public class Pelicula {
         this.duracion = duracion;
         this.edadMinima = edadMinima;
         this.director = director;
+    }
+
+    @Override
+    public String toString() {
+        return "Pelicula{" + "titulo=" + titulo + ", duracion=" + duracion + ", edadMinima=" + edadMinima + ", director=" + director + '}';
     }
 }
